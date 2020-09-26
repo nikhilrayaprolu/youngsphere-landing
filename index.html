@@ -1,547 +1,535 @@
 <!DOCTYPE html>
 <html lang="en">
 
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 
-		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" />
+	<link rel=icon href=./Assests/youngsphere-icon.png>
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+	<script charset="utf-8" type="text/javascript" src="https://js.hsforms.net/forms/shell.js"></script>
+	<script>
+		hbspt.forms.create({
+			portalId: "8479699",
+			formId: "60e420ac-157a-4745-9070-efeb3c85d41c",
+			target: "#early-access"
+		});
+	</script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-165372800-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
 
-		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
-		<script charset="utf-8" type="text/javascript" src="https://js.hsforms.net/forms/shell.js"></script>
-		<script>
-			hbspt.forms.create({
-				portalId: "8479699",
-				formId: "60e420ac-157a-4745-9070-efeb3c85d41c",
-				target: "#early-access"
-			});
-		</script>
-		<style>
-			body {
-				font-family: Arial, Helvetica, sans-serif;
-				background-color: #f2f2f2;
-				overflow-x: hidden;
-				width:100vw
+		gtag('config', 'UA-165372800-1');
+	</script>
+	<style>
+		body {
+			font-family: Arial, Helvetica, sans-serif;
+			background-color: #f2f2f2;
+			overflow-x: hidden;
+			width:100vw
+		}
+
+		.bg-orange {
+			background-color: #f36d21;
+		}
+
+		.nav-link {
+			color: #f2f2f2;
+		}
+
+		.search-bar-rounded {
+			border-radius: 99px;
+		}
+
+		.searchbar-color,
+		.searchbar-color:focus {
+			background: #ff9051 0% 0% no-repeat padding-box;
+			outline-style: none;
+			box-shadow: none;
+		}
+
+		.form-control::-webkit-input-placeholder {
+			color: #fff;
+			opacity: 1;
+		}
+
+		.form-control:-moz-placeholder {
+			color: #fff;
+			opacity: 1;
+		}
+
+		.form-control::-moz-placeholder {
+			color: #fff;
+			opacity: 1;
+		}
+
+		.form-control::placeholder {
+			color: #fff;
+			opacity: 1;
+		}
+
+		.form-control:-ms-input-placeholder {
+			color: #fff;
+			opacity: 1;
+		}
+
+		.fa-search {
+			color: #fff;
+			opacity: 1;
+		}
+
+		.pt-6 {
+			padding-top: 10em;
+		}
+
+		.py-5 {
+			padding-top: 2em !important;
+			padding-bottom: 2em !important;
+		}
+
+		.feature-image {
+			position: relative;
+			z-index: 1;
+			margin-bottom: -84px;
+		}
+
+		.feature-image.oter {
+			position: absolute;
+			left: 72px;
+			z-index: -1;
+		}
+
+		.feature-image.oter.oter-2 {
+			z-index: -2;
+		}
+
+		.wrapper {
+			position: relative;
+			z-index: 1;
+			max-width: 1140px;
+			margin-right: auto;
+			margin-left: auto;
+		}
+
+		@media (max-width:426px) {
+			.hexagon {
+				margin-top: 145px !important;
+				margin-left: -75% !important;
 			}
 
-			.bg-orange {
-				background-color: #f36d21;
+			span,
+			h1 {
+				word-wrap: break-word;
 			}
 
-			.nav-link {
-				color: #f2f2f2;
-			}
-
-			.search-bar-rounded {
-				border-radius: 99px;
-			}
-
-			.searchbar-color,
-			.searchbar-color:focus {
-				background: #ff9051 0% 0% no-repeat padding-box;
-				outline-style: none;
-				box-shadow: none;
-			}
-
-			.form-control::-webkit-input-placeholder {
-				color: #fff;
-				opacity: 1;
-			}
-
-			.form-control:-moz-placeholder {
-				color: #fff;
-				opacity: 1;
-			}
-
-			.form-control::-moz-placeholder {
-				color: #fff;
-				opacity: 1;
-			}
-
-			.form-control::placeholder {
-				color: #fff;
-				opacity: 1;
-			}
-
-			.form-control:-ms-input-placeholder {
-				color: #fff;
-				opacity: 1;
-			}
-
-			.fa-search {
-				color: #fff;
-				opacity: 1;
-			}
-
-			.pt-6 {
-				padding-top: 10em;
-			}
-
-			.py-5 {
-				padding-top: 2em !important;
-				padding-bottom: 2em !important;
+			.first-img {
+				margin-top: 0px !important;
+				transform: translate3d(-41.7428px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg) scale(1.08) !important;
 			}
 
 			.feature-image {
-				position: relative;
-				z-index: 1;
-				width: 450px;
-				margin-top: -24px;
-				margin-bottom: -84px;
+				margin-top: -38px;
 			}
 
 			.feature-image.oter {
-				position: absolute;
-				left: 72px;
-				z-index: -1;
+				left: -9px;
+				width: 280px;
 			}
 
 			.feature-image.oter.oter-2 {
-				z-index: -2;
+				left: 105px;
+			}
+		}
+
+		@media screen and (max-width: 767px) {
+			.feature-image {
+				width: 310px;
 			}
 
-			.wrapper {
-				position: relative;
-				z-index: 1;
-				max-width: 1140px;
-				margin-right: auto;
+			.feature-image.oter {
+				left: 88px;
+			}
+
+			.feature-image.oter.oter-2 {
+				left: 174px;
+			}
+		}
+
+		@media (min-width:991px) {
+			.ml-n4-lg {
+				margin-left: -4em;
+			}
+
+			.mr-n6-lg {
+				margin-right: -6em;
+			}
+
+			.mr-n5-lg {
+				margin-right: -5em;
+			}
+
+			.ml-n6-lg {
+				margin-left: -6em;
+			}
+
+			.mt-n5-lg {
+				margin-top: -5em;
+			}
+
+			.hexa-detail-block {
+				width: 700px;
+				height: 330px
+			}
+
+			.hexagon {
+				margin-top: 90px;
+				margin-left: -108px;
+			}
+		}
+
+		@media (min-width:991px) and (max-width:1024px) {
+			.feature-image.oter {
+				left: 37px;
+				display: none;
+				width: 350px;
+			}
+
+			.feature-image {
+				margin-top: 0px
+			}
+		}
+
+		@media (max-width:991px) {
+			.ml-auto-nlg {
 				margin-left: auto;
 			}
 
-			@media (max-width:426px) {
-				.hexagon {
-					margin-top: 145px !important;
-					margin-left: -75% !important;
-				}
-
-				span,
-				h1 {
-					word-wrap: break-word;
-				}
-
-				.first-img {
-					margin-top: 0px !important;
-					transform: translate3d(-41.7428px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg) scale(1.08) !important;
-				}
-
-				.feature-image {
-					margin-top: -38px;
-				}
-
-				.feature-image.oter {
-					left: -9px;
-					width: 280px;
-				}
-
-				.feature-image.oter.oter-2 {
-					left: 105px;
-				}
+			.mr-auto-nlg {
+				margin-right: auto;
 			}
 
-			@media screen and (max-width: 767px) {
-				.feature-image {
-					width: 310px;
-				}
-
-				.feature-image.oter {
-					left: 88px;
-				}
-
-				.feature-image.oter.oter-2 {
-					left: 174px;
-				}
+			.feature-image.oter {
+				left: 37px;
+				display: none;
+				width: 350px;
 			}
 
-			@media (min-width:991px) {
-				.ml-n4-lg {
-					margin-left: -4em;
-				}
-
-				.mr-n6-lg {
-					margin-right: -6em;
-				}
-
-				.mr-n5-lg {
-					margin-right: -5em;
-				}
-
-				.ml-n6-lg {
-					margin-left: -6em;
-				}
-
-				.mt-n5-lg {
-					margin-top: -5em;
-				}
-
-				.hexa-detail-block {
-					width: 700px;
-					height: 330px
-				}
-
-				.hexagon {
-					margin-top: 90px;
-					margin-left: -108px;
-				}
+			.wrapper {
+				padding-left: 20%;
 			}
 
-			@media (min-width:991px) and (max-width:1024px) {
-				.feature-image.oter {
-					left: 37px;
-					display: none;
-					width: 350px;
-				}
+			.hexagon {
+				margin-top: 90px;
+				margin-left: -60%;
+			}
+		}
 
-				.feature-image {
-					margin-top: 0px
-				}
+		@media (min-width:1200px) {
+			.hexagon {
+				margin-top: 90px;
+				margin-left: -80px;
 			}
 
-			@media (max-width:991px) {
-				.ml-auto-nlg {
-					margin-left: auto;
-				}
-
-				.mr-auto-nlg {
-					margin-right: auto;
-				}
-
-				.feature-image.oter {
-					left: 37px;
-					display: none;
-					width: 350px;
-				}
-
-				.wrapper {
-					padding-left: 20%;
-				}
-
-				.hexagon {
-					margin-top: 90px;
-					margin-left: -60%;
-				}
+		}
+		@media (min-width:1700px) {
+			.hexagon {
+				margin-top: 90px;
+				margin-left: -108px;
 			}
+		}
+		.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link {
+			color: rgba(255,255,255, 0.75);
+		}
+		.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+			color: rgba(255,255,255, 1);
+		}
 
-			@media (min-width:1200px) {
-				.hexagon {
-					margin-top: 90px;
-					margin-left: -80px;
-				}
+	</style>
+	<title>Young Sphere</title>
+</head>
 
-			}
-			@media (min-width:1700px) {
-				.hexagon {
-					margin-top: 90px;
-					margin-left: -108px;
-				}
-			}
-			.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link {
-				color: rgba(255,255,255, 0.75);
-			}
-			.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
-				color: rgba(255,255,255, 1);
-			}
+<body>
+<div class="container-fluid" style="padding-left: 0px;padding-right: 0px">
+	<header>
+		<nav class="navbar navbar-expand-md navbar-dark bg-orange">
+			<div class="col-lg-4" style="text-align: center">
+				<span class="navbar-brand" style="font-weight: 700; font-size: 30px">Young Sphere 3D</span>
+			</div>
+			<div class="col-lg-8">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+						aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
 
-		</style>
-		<title>Young Sphere</title>
-	</head>
-
-	<body>
-		<div class="container-fluid" style="padding-left: 0px;padding-right: 0px">
-			<header>
-				<nav class="navbar navbar-expand-md navbar-dark bg-orange">
-					<div class="col-lg-4" style="text-align: center">
-						<span class="navbar-brand" style="font-weight: 700; font-size: 30px">Young Sphere 3D</span>
-					</div>
-					<div class="col-lg-8">
-						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
-							aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-							<span class="navbar-toggler-icon"></span>
-						</button>
-
-						<div class="collapse navbar-collapse float-right" id="navbarsExampleDefault">
-							<ul class="navbar-nav mr-auto">
-								<li class="nav-item">
-									<a class="nav-link" href="#">Contribute</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#">About</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#">Contact Us</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#">Blog</a>
-								</li>
-							</ul>
+				<div class="collapse navbar-collapse float-right" id="navbarsExampleDefault">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="https://github.com/youngsphere">Contribute</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="mailto:nikhil@youngsphere.com">Contact Us</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="https://www.medium.com/youngsphere">Blog</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<main class="container-fluid">
+		<div class="pt-2">
+			<!--New Experience-->
+			<div class="row">
+				<div class="col-lg-5 col-sm-12">
+					<img src="./Assests/Augmented_Reality.png" style="width: 548px; height: 548px;"
+						 class="float-lg-right img-fluid ml-auto-nlg mr-auto-nlg" alt="Augmented Reality" />
+				</div>
+				<div class="col-lg-7 py-5 col-sm-12">
+					<div class="py-2 bg-white	 ">
+						<div class="col-lg-10 offset-lg-1">
+							<div class="text-center">
+								<h1 style="font: normal normal bold 66px/76px Arial;">Crowd Sourcing Augmented Reality for K12 Education</h1>
+							</div>
 						</div>
-					</div>
-				</nav>
-			</header>
-			<main class="container-fluid">
-				<div class="pt-2">
-					<!--New Experience-->
-					<div class="row">
-						<div class="col-lg-5 col-sm-12">
-							<img src="./Assests/Augmented_Reality.png" style="width: 548px; height: 548px;"
-								class="float-lg-right img-fluid ml-auto-nlg mr-auto-nlg" alt="Augmented Reality" />
-						</div>
-						<div class="col-lg-7 py-5 col-sm-12">
-							<div class="py-2 bg-white	 ">
-								<div class="col-lg-10 offset-lg-1">
-									<div class="text-center">
-										<h1 style="font: normal normal bold 66px/76px Arial;">Crowd Sourcing Augmented Reality for K12 Education</h1>
-									</div>
-								</div>
-								<div class="col-lg-8 offset-lg-2 py-4">
-									<div class="text-center">
+						<div class="col-lg-8 offset-lg-2 py-4">
+							<div class="text-center">
 										<span style="font: normal normal normal 25px/29px Arial;"> A student from
 											Bangladesh can now have immersive experiential learning on his mobile phone through the AR content
 											developed by an AR developer from Africa. </span>
-									</div>
-								</div>
-								<div class="col-lg-4 offset-lg-4 pb-3">
-									<div class="text-center">
-										<button type="button" class="btn btn-lg bg-orange text-white p-4"
-											style="font: normal 30px/34px Arial;">More</button>
-									</div>
-								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 offset-lg-4 pb-3">
+							<div class="text-center">
+								<!--<button type="button" class="btn btn-lg bg-orange text-white p-4"-->
+										<!--style="font: normal 30px/34px Arial;">More</button>-->
 							</div>
 						</div>
 					</div>
-					<!--About-->
-					<div class="row pt-2">
-						<div class="col-lg-7">
-							<div class="py-2 bg-white	 ">
-								<div class="col-lg-10 offset-lg-1">
-									<div class="text-center">
-										<h1 style="font: normal bold">Build Augmented Reality for Education</h1>
-									</div>
-								</div>
-								<div class="col-lg-8 offset-lg-2 py-4">
-									<div class="text-center">
+				</div>
+			</div>
+			<!--About-->
+			<div class="row pt-2">
+				<div class="col-lg-7">
+					<div class="py-2 bg-white	 ">
+						<div class="col-lg-10 offset-lg-1">
+							<div class="text-center">
+								<h1 style="font: normal bold">Build Augmented Reality for Education</h1>
+							</div>
+						</div>
+						<div class="col-lg-8 offset-lg-2 py-4">
+							<div class="text-center">
 										<span style="font: normal normal normal 25px/33px Arial;"> Design Immersive Content for Education and earn money! Yes, we are same
 										as Youtube, but for Immersive Content in Education </span>
-									</div>
-								</div>
-								<div class="col-lg-4 offset-lg-4 pb-3">
-									<div class="text-center">
-										<button type="button" class="btn btn-lg bg-orange text-white p-4"
-												style="font: normal 30px/34px Arial;">Learn WebXR</button>
-									</div>
-								</div>
 							</div>
 						</div>
-						<div class="col-lg-5">
-							<div class="ml-n4-lg">
-								<img src="./Assests/undraw_our_solution_htvp.svg" style="width: 686px;height: 434px;"
-									class="float-left img-fluid ml-auto-nlg mr-auto-nlg" />
+						<div class="col-lg-4 offset-lg-4 pb-3">
+							<div class="text-center">
+								<a href="https://www.medium.com/youngsphere">
+								<button type="button" class="btn btn-lg bg-orange text-white p-4"
+										style="font: normal 30px/34px Arial;">Learn WebXR</button>
+								</a>
 							</div>
 						</div>
 					</div>
-					<!--Problems-->
-					<div class="row pt-2">
-						<div class="col-lg-5">
-							<div class="mr-n6-lg">
-								<img src="./Assests/undraw_true_friends_c94g.svg" style="width: 691px;height: 455px;"
-									class="float-right img-fluid ml-auto-nlg mr-auto-nlg" />
+				</div>
+				<div class="col-lg-5">
+					<div class="ml-n4-lg">
+						<img src="./Assests/undraw_our_solution_htvp.svg" style="width: 686px;height: 434px;"
+							 class="float-left img-fluid ml-auto-nlg mr-auto-nlg" />
+					</div>
+				</div>
+			</div>
+			<!--Problems-->
+			<div class="row pt-2">
+				<div class="col-lg-5">
+					<div class="mr-n6-lg">
+						<img src="./Assests/undraw_true_friends_c94g.svg" style="width: 691px;height: 455px;"
+							 class="float-right img-fluid ml-auto-nlg mr-auto-nlg" />
+					</div>
+				</div>
+				<div class="col-lg-7">
+					<div class="py-2 bg-white">
+						<div class="col-lg-9 offset-lg-1 ">
+							<div class="text-center">
+								<h1>Request for Early Access</h1>
 							</div>
 						</div>
-						<div class="col-lg-7">
-							<div class="py-2 bg-white">
-								<div class="col-lg-9 offset-lg-1 ">
-									<div class="text-center">
-										<h1>Request for Early Access</h1>
-									</div>
-								</div>
-								<div class="col-lg-8 offset-lg-2 py-4 mb-5" id="early-access">
+						<div class="col-lg-8 offset-lg-2 py-4 mb-5" id="early-access">
+							<p>We will be realising our Beta product on October 31st to select AR developers.</p>
+						</div>
+					</div>
+				</div>
+			</div>
 
-								</div>
+			<div class="row pt-6">
+				<div class="col-lg-12 pt-5">
+					<div class="py-5 bg-white">
+						<div class="col-lg-4 offset-lg-4 ">
+							<div class="text-center">
+								<h1>App</h1>
 							</div>
 						</div>
-					</div>
-					<!--Feature 1-->
-					<div class="row">
-						<div class="col-lg-7 pt-5">
-							<div class="py-5 bg-white">
-								<div class="col-lg-4 offset-lg-4 ">
-									<div class="text-center">
-										<h1>Feature</h1>
-									</div>
-								</div>
-								<div class="col-lg-8 offset-lg-2 py-5 my-5">
-									<div class="text-center">
+						<div class="col-lg-8 offset-lg-2 py-5 my-5">
+							<div class="row">
+								<div class="col-lg-12">
+								<div class="text-center">
 										<span class="d-flex justify-content-center"
-											style="font: normal normal normal 25px/33px Arial;">Lorem
-											ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-											invidunt ut labore
-											et dolore
-											magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-											dolores et ea</span>
-									</div>
+											  style="font: normal normal normal 25px/33px Arial;">Immersive App for Students with AR content, Quizzes and Gamification</span>
 								</div>
-							</div>
-						</div>
-						<div class="col-lg-5">
-							<div class="wrapper">
-								<img
-									src="https://assets.website-files.com/5e0e0fff15200720a27c1d15/5e0e13dd6862e55d78ab8799_Device%20Mockup-1.png"
-									style="opacity: 1; transform: translate3d(45.2551px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform;"
-									alt="" class="feature-image oter oter-2 img-fluid" />
-							</div>
-						</div>
-					</div>
-					<!--Feature 2-->
-					<div class="row pt-6">
-						<div class="col-lg-5">
-							<div class="wrapper">
-								<img
-									src="https://assets.website-files.com/5e0e0fff15200720a27c1d15/5e0e13dd6862e55d78ab8799_Device%20Mockup-1.png"
-									data-w-id="0d0aa15a-7abf-de2a-8290-fb8c31c73c15" alt="" class="feature-image img-fluid first-img"
-									style="will-change: transform; transform: translate3d(-41.7428px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;" />
-							</div>
-						</div>
-						<div class="col-lg-7 pt-5">
-							<div class="py-5 bg-white">
-								<div class="col-lg-4 offset-lg-4 ">
-									<div class="text-center">
-										<h1>Feature</h1>
-									</div>
 								</div>
-								<div class="col-lg-8 offset-lg-2 py-5 my-5">
-									<div class="text-center">
-										<span class="d-flex justify-content-center"
-											style="font: normal normal normal 25px/33px Arial;">Lorem
-											ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-											invidunt ut labore
-											et dolore
-											magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-											dolores et ea</span>
-									</div>
+								<div class="col-lg-3" >
+									<img
+											src="./Assests/index.png"
+											data-w-id="0d0aa15a-7abf-de2a-8290-fb8c31c73c15" alt="" class="feature-image img-fluid first-img"
+									/>
 								</div>
-							</div>
-						</div>
-					</div>
-					<!--Feature 3-->
-					<div class="row">
-						<div class="col-lg-7 pt-5">
-							<div class="py-5 bg-white">
-								<div class="col-lg-4 offset-lg-4 ">
-									<div class="text-center">
-										<h1>Feature</h1>
-									</div>
+								<div class="col-lg-3" >
+									<img
+											src="./Assests/scenario.png"
+											data-w-id="0d0aa15a-7abf-de2a-8290-fb8c31c73c15" alt="" class="feature-image img-fluid first-img"
+									/>
 								</div>
-								<div class="col-lg-8 offset-lg-2 py-5 my-5">
-									<div class="text-center">
-										<span class="d-flex justify-content-center"
-											style="font: normal normal normal 25px/33px Arial;">Lorem
-											ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-											invidunt ut labore
-											et dolore
-											magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-											dolores et ea</span>
-									</div>
+								<div class="col-lg-3" >
+									<img
+											src="./Assests/quiz.png"
+											data-w-id="0d0aa15a-7abf-de2a-8290-fb8c31c73c15" alt="" class="feature-image img-fluid first-img"
+									/>
 								</div>
-							</div>
-						</div>
-						<div class="col-lg-5">
-							<div class="wrapper">
-								<img
-									src="https://assets.website-files.com/5e0e0fff15200720a27c1d15/5e0e13dd6862e55d78ab8799_Device%20Mockup-1.png"
-									style="opacity: 1; transform: translate3d(45.2551px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform;"
-									alt="" class="feature-image oter oter-2 img-fluid" />
-							</div>
-						</div>
-					</div>
-					<!--Hexagon-->
-					<div class="row pt-6">
-						<div class="col-lg-6 offset-lg-3 col-xl-4 offset-xl-4 offset-sm-4 offset-2 border-0">
-							<div class="row">
-								<div class="col-lg-4 col-sm-4 col-4"
-									style="background: #7FC4FD 0% 0% no-repeat padding-box; height: 330px; width: 200px;">
-									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-										class="hexagon img-fluid" version="1.1" id="Layer_1" x="0px" y="0px" width="185px" height="160px"
-										viewBox="0 0 174 151" enable-background="new 0 0 174 151" xml:space="preserve">
-										<image id="image0" width="174" height="151" x="0" y="0"
-											xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK4AAACXCAMAAAC7p5C5AAAABGdBTUEAALGPC/xhBQAAACBjSFJN AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACc1BMVEUAAADI5Pq84P263/1t u/wnmvuk1P0mmfsomvvB4vy53/1bsvwnmfu74P2Qy/y53v1Iqfu73/1+wvy03P01oPs0oPvH5Ptq uvyh0/2/4fxYsPyNyvy43v1Fp/tBpft7wfyx2/0yn/svnfvF4/tnuPye0v294P1Vr/yLyPxCpvs7 o/t4wPyu2f0wnvspmvvD4vxkt/yb0f1SrvyIx/w/pfs2ofvI5Pt1v/yr2P0tnPtitfyZz/1PrPyG xvw8pPsxnvvG4/tyvfyo1v0qm/tftPyWzv1Mq/w9o/uDxfy33f05ovsrm/vE4/tvvPyl1f1cs/yT zP1Kqfs4ovuBw/zC4vxsu/yi1P1ZsfxGqPszoPvA4fyf0v1XsPw/pPtDpvu+4f2c0f1Ur/w5o/t5 wPwunftlt/xRrvw1ofs+pft2v/wsnPtwvPxwvfxyvvw8o/spm/uY0P2w1vdltvxYsPur1/16wPx2 vfpBpvuLyfyXzPhVsPyd0v242vZpuPxftPqv2v1+wfpFqPszn/ue0PhZsvxKqvvB3vZuu/xnt/qz 3P2BxPyGxPmVzfyn0vddtPxSrvum1f1vufq33v2OyPlPrPtDp/ux1vditvxbsvt3vfqKyPxTr/xL q/u52/Zmt/xktfqv2f1Ep/s9pPuOyvyf0PhXsfxUr/vC3vZrufxtufp+w/yIxflJqvuTzfyo0/dd svs6ovs3ofuTyvlOrPtOq/uXz/xhtfxmtvt1vvyAwvmcz/hTrvxWr/u62/ZwuvovnvuKx/lHqfuM yvxWsPxgs/uf0/3F4PZqufx6v/qy3P2Uy/lQrPuRzPyx1/dbs/xpt/v///8RUrZ0AAAAAXRSTlMA QObYZgAAAAFiS0dE0A7Wz5wAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAAHdElNRQfkCQwKNCJlGhk4 AAAFQElEQVR42tXch3sURRgG8FfWZdZzlnAhKMpJsUIkpwhRUDHCWdCo2HsFQQNq7L2hYq8o2Hvv vffe9V8yEpJccre7M7Pzzs59f8HveTPf99x9MzlAubYYR6lgy1DdoFEc7bjxQkQE7VYcbWlrIWTL hBtPEIIRL+kotE38n2s/Xo623C42le1uI4U7qWOQKyZb1W7D0QbbbtZajpcU7hQxXDa7bTuOtrT9 CNdmt3G08VRRV/aOA+koVHao54ppfnPL00dprcVLCnfGzNFcsaMV7U4cbbDzGK2lbuNo411EQ9kY ZrtyuKXdGrk24iWFO0s0qfzdxtGOq8xuxhWdfnLLuzfV5o6XFO6cruZcUc2l3YOjDfZM0ObsNo42 nisSK88wIx2F0l7J3DzxksKdJ1LKvNtI4Vbmp3FFt6F2b4422CdVaxwvKdwFC9O5ht1GWtsE+2Zo DbuNo433y9KaxUs6CqX9s7lyti/ceFG21qTbSOFWDlDhih5N7YEcbbBYSavdbaRwl9TUuJrdRlrb BAcpajXj5Wjjg1W1evGSjkLbIepccWjR3PJSDa3GMCOFe9jhOlzRq6g9gqMNjtTSKncbKdyjpB5X sdtYa5tlmlrFeDna+GhdrVq3kY5C2zH6XHFsppZ0UV0+zkCrEC8p3EndJtzMbjueow1OMNJmdhsp 3BPNtFnxkrSlk0y5sgDu4CsAswrdh9t2sjlXzEzUki6qh14B2I6XFO6MU/JwE7vtVI525BWAWUmn 4can5dMmxUs6CqXT83LFGQ7DnZpb27TbSOFWzszPFQsbtKSL6rGvAGzFSwp3To8NbkO3ncXRNr4C MCvpJNz4bDvasfGSjkLpHFtcsdxBuLPyM4cq5IdbmWaPW3ccWBfVKyxq67qNFO6Cc21yh+MlaYOV VrXD8XK0KhdoJvGSwi2tss0V54G2tkl/BWBWIXGInW+fO3AcWBfVfQTtQLeVKRUsWR0yCmsodUHf hZQC428m5CpSR+AiBrf/Yhb3Et0LDoUKL2Vpgcvsc1dfTtMCkW1tdAUvXOBK29yrmFqg1662ejWX e43VbpPXcrWAjUXLcNWuY3OvtxhveANbC9xoj9tzE11rcZhF7fxwgZstaeVaF1rgFjvc6gQ33Fut dJu8zY0WWGeDW5viSIvbw/za6A5X4QJ35ud23+VMa2GYRXe7Cxe4J6dWrnOpBTrzcav3uuXel2uY yfvdaoEH8nBrDzrWAjmGWbTYdbjAQ+bczvXOtUDWP4wkVnWR+3CBhw27TT5ShBbYYMblrW3Sa6NR vOGjxWiBx0y41LVNehl8dIj6igoXeFyfO784LdChq60+USRXd6kjnyxSCzylx+0nrW0UtXha66ND +Eyx4QLP6nC7nitYqzXMoulFh6uz1JHPF68FXlDlVl/0gfuS4jCTL/ugBV5R47pb26TXq0rDLHrN j3CB11W4HS7XNunVla2N3vAlXODNzG6Tb/mjBdZmDrG3feK+kxGvXOaTFng3Y4i5X9ukV+pHh2iN X+FmfA96b71nWuD9lHCX+hYu8EFit8kP/dMCHyVx+z/2kbsx4aND+ImPWuDT5tze4tY26dX0KUn0 mZ/hAp834xa6tkmvJr8XVZ3nL/eLhmEmv/RXC3zVMMTmeqzF12OGWbjS53CBb0Zzvy1+bZNeo37K NVrhd7jAd3XdJjf4rgW+rxtiP/jPHbnclj/6rwV+GuLWfm4BLX7Z/D0o/LUVwgV+G+RO/r0ltMDy TUOsvTXCBf4Y6DY5sVW0wJ8DQ+yv1uH+Hcp/WkcL/FsbX7j2P12O1aZuoqEYAAAAJXRFWHRkYXRl OmNyZWF0ZQAyMDIwLTA5LTEyVDEwOjUyOjM0KzAzOjAwUgEEGAAAACV0RVh0ZGF0ZTptb2RpZnkA MjAyMC0wOS0xMlQxMDo1MjozNCswMzowMCNcvKQAAAAASUVORK5CYII=" />
-									</svg>
-								</div>
-								<div class="col-lg-8 col-sm-8 col-8 hexa-detail-block"
-									style="background: #F1F9FF 0% 0% no-repeat padding-box;padding-top:100px;">
-									<span class="pl-2"
-										style="font: normal normal normal 30px/40px Georgia;color: #2699FB; word-wrap: normal;">Colaborate
-										with
-										us</span>
-									<div class="pl-2 pt-5">
-										<span
-											style="border: 2px solid #BCE0FD; padding:1.5em; padding-left:3em; padding-right:3em; font: normal normal bold 10px/12px Arial; border-radius:4px; color: #2699FB;word-wrap: normal;">PING
-											ME</span>
-										<button class="btn btn-primary"
-											style="font: normal normal bold 10px/12px Arial;padding:1.5em; padding-left:3em; padding-right:3em;	word-wrap: normal;">CONTACT</button>
-									</div>
-								</div>
-
-							</div>
-						</div>
-					</div>
-
-			</main>
-			<!-- /.container -->
-			<footer class="footer pt-6">
-				<div class="py-5 px-2" style="background: #10243F 0% 0% no-repeat padding-box;">
-					<div class="row text-light">
-						<div class="col-lg-2 offset-lg-1 col-10 offset-1">
-							<div class="row"><span class="text-uppercase">Start a project</span>
-							</div>
-							<div class="row py-2" style="font: normal normal normal 14px/24px Arial;">
-								<span>We are ready for the challenge adobexd@mail.com</span>
-							</div>
-						</div>
-						<div class="col-lg-2 offset-lg-1 col-10 offset-1">
-							<div class="row">
-								<span class="text-uppercase">Say Hello</span>
-							</div>
-							<div class="row py-2" style="font: normal normal normal 14px/24px Arial;">
-								<span>497 Evergreen Rd. Roseville, CA 95673 +44 345 678 903</span>
-							</div>
-						</div>
-						<div class="col-lg-2 offset-lg-1 col-10 offset-1">
-							<div class="row">
-								<span class="text-uppercase">Jobs</span>
-							</div>
-							<div class="row py-2" style="font: normal normal normal 14px/24px Arial;">
-								<span>We are always looking for talent adobexd@mail.com</span>
-							</div>
-						</div>
-						<div class="col-lg-2 offset-lg-1 col-4 offset-4">
-							<div class="row">
-								<div class="col-lg-1 offset-lg-3 col-1">
-									<i class="fa fa-instagram" aria-hidden="true"></i>
-								</div>
-								<div class="col-lg-1 offset-lg-1 col-1">
-									<i class="fa fa-twitter" aria-hidden="true"></i>
-								</div>
-								<div class="col-lg-1 offset-lg-1 col-1">
-									<i class="fa fa-facebook" aria-hidden="true"></i>
+								<div class="col-lg-3" >
+									<img
+											src="./Assests/leaderboard.png"
+											data-w-id="0d0aa15a-7abf-de2a-8290-fb8c31c73c15" alt="" class="feature-image img-fluid first-img"
+									/>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</footer>
+			</div>
+			<div class="row pt-3">
+				<div class="col-lg-12 pt-5">
+					<div class="py-5 bg-white">
+						<div class="col-lg-4 offset-lg-4 ">
+							<div class="text-center">
+								<h1>AR developers Platform</h1>
+							</div>
+						</div>
+						<div class="col-lg-8 offset-lg-2 py-5 my-5">
+							<div class="row">
+								<div class="col-lg-12">
+									<div class="text-center">
+										<span class="d-flex justify-content-center"
+											  style="font: normal normal normal 25px/33px Arial;">Option to publish the AR content files or give a link to your hosted AR content</span>
+									</div>
+								</div>
+								<div class="col-lg-12" >
+									<img
+											src="./Assests/upload.png"
+											data-w-id="0d0aa15a-7abf-de2a-8290-fb8c31c73c15" alt="" class="feature-image img-fluid first-img"
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--Hexagon-->
+			<div class="row pt-6">
+				<div class="col-lg-6 offset-lg-3 col-xl-4 offset-xl-4 offset-sm-4 offset-2 border-0">
+					<div class="row">
+						<div class="col-lg-4 col-sm-4 col-4"
+							 style="background: #7FC4FD 0% 0% no-repeat padding-box; height: 330px; width: 200px;">
+							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+								 class="hexagon img-fluid" version="1.1" id="Layer_1" x="0px" y="0px" width="185px" height="160px"
+								 viewBox="0 0 174 151" enable-background="new 0 0 174 151" xml:space="preserve">
+										<image id="image0" width="174" height="151" x="0" y="0"
+											   xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK4AAACXCAMAAAC7p5C5AAAABGdBTUEAALGPC/xhBQAAACBjSFJN AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACc1BMVEUAAADI5Pq84P263/1t u/wnmvuk1P0mmfsomvvB4vy53/1bsvwnmfu74P2Qy/y53v1Iqfu73/1+wvy03P01oPs0oPvH5Ptq uvyh0/2/4fxYsPyNyvy43v1Fp/tBpft7wfyx2/0yn/svnfvF4/tnuPye0v294P1Vr/yLyPxCpvs7 o/t4wPyu2f0wnvspmvvD4vxkt/yb0f1SrvyIx/w/pfs2ofvI5Pt1v/yr2P0tnPtitfyZz/1PrPyG xvw8pPsxnvvG4/tyvfyo1v0qm/tftPyWzv1Mq/w9o/uDxfy33f05ovsrm/vE4/tvvPyl1f1cs/yT zP1Kqfs4ovuBw/zC4vxsu/yi1P1ZsfxGqPszoPvA4fyf0v1XsPw/pPtDpvu+4f2c0f1Ur/w5o/t5 wPwunftlt/xRrvw1ofs+pft2v/wsnPtwvPxwvfxyvvw8o/spm/uY0P2w1vdltvxYsPur1/16wPx2 vfpBpvuLyfyXzPhVsPyd0v242vZpuPxftPqv2v1+wfpFqPszn/ue0PhZsvxKqvvB3vZuu/xnt/qz 3P2BxPyGxPmVzfyn0vddtPxSrvum1f1vufq33v2OyPlPrPtDp/ux1vditvxbsvt3vfqKyPxTr/xL q/u52/Zmt/xktfqv2f1Ep/s9pPuOyvyf0PhXsfxUr/vC3vZrufxtufp+w/yIxflJqvuTzfyo0/dd svs6ovs3ofuTyvlOrPtOq/uXz/xhtfxmtvt1vvyAwvmcz/hTrvxWr/u62/ZwuvovnvuKx/lHqfuM yvxWsPxgs/uf0/3F4PZqufx6v/qy3P2Uy/lQrPuRzPyx1/dbs/xpt/v///8RUrZ0AAAAAXRSTlMA QObYZgAAAAFiS0dE0A7Wz5wAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAAHdElNRQfkCQwKNCJlGhk4 AAAFQElEQVR42tXch3sURRgG8FfWZdZzlnAhKMpJsUIkpwhRUDHCWdCo2HsFQQNq7L2hYq8o2Hvv vffe9V8yEpJccre7M7Pzzs59f8HveTPf99x9MzlAubYYR6lgy1DdoFEc7bjxQkQE7VYcbWlrIWTL hBtPEIIRL+kotE38n2s/Xo623C42le1uI4U7qWOQKyZb1W7D0QbbbtZajpcU7hQxXDa7bTuOtrT9 CNdmt3G08VRRV/aOA+koVHao54ppfnPL00dprcVLCnfGzNFcsaMV7U4cbbDzGK2lbuNo411EQ9kY ZrtyuKXdGrk24iWFO0s0qfzdxtGOq8xuxhWdfnLLuzfV5o6XFO6cruZcUc2l3YOjDfZM0ObsNo42 nisSK88wIx2F0l7J3DzxksKdJ1LKvNtI4Vbmp3FFt6F2b4422CdVaxwvKdwFC9O5ht1GWtsE+2Zo DbuNo433y9KaxUs6CqX9s7lyti/ceFG21qTbSOFWDlDhih5N7YEcbbBYSavdbaRwl9TUuJrdRlrb BAcpajXj5Wjjg1W1evGSjkLbIepccWjR3PJSDa3GMCOFe9jhOlzRq6g9gqMNjtTSKncbKdyjpB5X sdtYa5tlmlrFeDna+GhdrVq3kY5C2zH6XHFsppZ0UV0+zkCrEC8p3EndJtzMbjueow1OMNJmdhsp 3BPNtFnxkrSlk0y5sgDu4CsAswrdh9t2sjlXzEzUki6qh14B2I6XFO6MU/JwE7vtVI525BWAWUmn 4can5dMmxUs6CqXT83LFGQ7DnZpb27TbSOFWzszPFQsbtKSL6rGvAGzFSwp3To8NbkO3ncXRNr4C MCvpJNz4bDvasfGSjkLpHFtcsdxBuLPyM4cq5IdbmWaPW3ccWBfVKyxq67qNFO6Cc21yh+MlaYOV VrXD8XK0KhdoJvGSwi2tss0V54G2tkl/BWBWIXGInW+fO3AcWBfVfQTtQLeVKRUsWR0yCmsodUHf hZQC428m5CpSR+AiBrf/Yhb3Et0LDoUKL2Vpgcvsc1dfTtMCkW1tdAUvXOBK29yrmFqg1662ejWX e43VbpPXcrWAjUXLcNWuY3OvtxhveANbC9xoj9tzE11rcZhF7fxwgZstaeVaF1rgFjvc6gQ33Fut dJu8zY0WWGeDW5viSIvbw/za6A5X4QJ35ud23+VMa2GYRXe7Cxe4J6dWrnOpBTrzcav3uuXel2uY yfvdaoEH8nBrDzrWAjmGWbTYdbjAQ+bczvXOtUDWP4wkVnWR+3CBhw27TT5ShBbYYMblrW3Sa6NR vOGjxWiBx0y41LVNehl8dIj6igoXeFyfO784LdChq60+USRXd6kjnyxSCzylx+0nrW0UtXha66ND +Eyx4QLP6nC7nitYqzXMoulFh6uz1JHPF68FXlDlVl/0gfuS4jCTL/ugBV5R47pb26TXq0rDLHrN j3CB11W4HS7XNunVla2N3vAlXODNzG6Tb/mjBdZmDrG3feK+kxGvXOaTFng3Y4i5X9ukV+pHh2iN X+FmfA96b71nWuD9lHCX+hYu8EFit8kP/dMCHyVx+z/2kbsx4aND+ImPWuDT5tze4tY26dX0KUn0 mZ/hAp834xa6tkmvJr8XVZ3nL/eLhmEmv/RXC3zVMMTmeqzF12OGWbjS53CBb0Zzvy1+bZNeo37K NVrhd7jAd3XdJjf4rgW+rxtiP/jPHbnclj/6rwV+GuLWfm4BLX7Z/D0o/LUVwgV+G+RO/r0ltMDy TUOsvTXCBf4Y6DY5sVW0wJ8DQ+yv1uH+Hcp/WkcL/FsbX7j2P12O1aZuoqEYAAAAJXRFWHRkYXRl OmNyZWF0ZQAyMDIwLTA5LTEyVDEwOjUyOjM0KzAzOjAwUgEEGAAAACV0RVh0ZGF0ZTptb2RpZnkA MjAyMC0wOS0xMlQxMDo1MjozNCswMzowMCNcvKQAAAAASUVORK5CYII=" />
+									</svg>
+						</div>
+						<div class="col-lg-8 col-sm-8 col-8 hexa-detail-block"
+							 style="background: #F1F9FF 0% 0% no-repeat padding-box;padding-top:100px;">
+									<span class="pl-2"
+										  style="font: normal normal normal 30px/40px Georgia;color: #2699FB; word-wrap: normal;">We believe in collaboration, feel free to ping </span>
+							<div class="pl-2 pt-5">
+								<a href="mailto:nikhil@youngsphere.com">
+								<span
+												style="border: 2px solid #BCE0FD; padding:1.5em; padding-left:3em; padding-right:3em; font: normal normal bold 10px/12px Arial; border-radius:4px; color: #2699FB;word-wrap: normal;">PING ME
+											</span>
+								</a>
+								<a href="mailto:nikhil@youngsphere.com">
+								<button class="btn btn-primary"
+										style="font: normal normal bold 10px/12px Arial;padding:1.5em; padding-left:3em; padding-right:3em;	word-wrap: normal;">Contact</button>
+								</a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+	</main>
+	<!-- /.container -->
+	<footer class="footer pt-6">
+		<div class="py-5 px-2" style="background: #10243F 0% 0% no-repeat padding-box;">
+			<div class="row text-light">
+				<div class="col-lg-2 offset-lg-1 col-10 offset-1">
+					<div class="row"><span class="text-uppercase">YoungSphere</span>
+					</div>
+					<div class="row py-2" style="font: normal normal normal 14px/24px Arial;">
+						<span>For Suggestions Ping Us at nikhil@youngsphere.com</span>
+					</div>
+				</div>
+				<div class="col-lg-2 offset-lg-1 col-10 offset-1">
+					<div class="row">
+						<span class="text-uppercase">Say Hello</span>
+					</div>
+					<div class="row py-2" style="font: normal normal normal 14px/24px Arial;">
+						<span>2nd Floor, Baitul Khair Building, D.No: 1-8-308/4/B, Patigadda, Begumpet, Hyderabad, Telangana 500003</span>
+					</div>
+				</div>
+				<div class="col-lg-2 offset-lg-1 col-10 offset-1">
+					<div class="row">
+						<span class="text-uppercase">Jobs</span>
+					</div>
+					<div class="row py-2" style="font: normal normal normal 14px/24px Arial;">
+						<span>We are always looking for talent nikhil@youngsphere.com</span>
+					</div>
+				</div>
+				<div class="col-lg-2 offset-lg-1 col-4 offset-4">
+					<div class="row">
+						<div class="col-lg-1 offset-lg-3 col-1">
+							<i class="fa fa-instagram" aria-hidden="true"></i>
+						</div>
+						<div class="col-lg-1 offset-lg-1 col-1">
+							<i class="fa fa-twitter" aria-hidden="true"></i>
+						</div>
+						<div class="col-lg-1 offset-lg-1 col-1">
+							<i class="fa fa-facebook" aria-hidden="true"></i>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-		<!-- Bootstrap core JavaScript
-    ================================================== -->
-		<!-- Placed at the end of the document so the pages load faster -->
-		<script src="https://code.jquery.com/jquery-3.5.1.slim.js" crossorigin="anonymous"></script>
-		<script>
-			window.jQuery ||
-				document.write(
-					'<script src="https://code.jquery.com/jquery-3.5.1.slim.js"><\/script>'
-				);
-		</script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-	</body>
+	</footer>
+</div>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.js" crossorigin="anonymous"></script>
+<script>
+	window.jQuery ||
+	document.write(
+			'<script src="https://code.jquery.com/jquery-3.5.1.slim.js"><\/script>'
+	);
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
 
 </html>
